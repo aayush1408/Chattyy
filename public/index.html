@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Chattyyy</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <h2>Heyyaaa</h2>
+       <div id="mario-chat">
+            <h2>Chatyy</h2>
+            <div id="chat-window">
+
+                <div id="output"></div>
+                 <div id="feedback"></div>
+            </div>
+            <input id="handle" type="text" placeholder="Username" />
+            <input id="message" type="text" placeholder="Message" />
+            <button id="send">Send</button>
+        </div>
+
+    <script type="text/javascript" src="chat.js"></script>
 </body>
 </html>
